@@ -1,71 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olivia | Public Beta 1.01</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-    <style>
-        :root { --apple-blue: #0071e3; --glass: rgba(255, 255, 255, 0.7); }
-        body { 
-            margin: 0; padding: 0; font-family: 'Inter', sans-serif; 
-            background: linear-gradient(135deg, #f5f5f7 0%, #d2d2d7 100%);
-            display: flex; justify-content: center; align-items: center; min-height: 100vh;
-            color: #1d1d1f;
-        }
-        .apple-card {
-            background: var(--glass);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border-radius: 30px;
-            padding: 50px 30px;
-            width: 90%; max-width: 400px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.05);
-            border: 1px solid rgba(255,255,255,0.3);
-            text-align: center;
-        }
-        .logo-placeholder { font-size: 50px; margin-bottom: 10px; }
-        h1 { font-size: 40px; font-weight: 600; margin: 0; letter-spacing: -1px; }
-        .beta-badge { 
-            display: inline-block; background: #86868b; color: white; 
-            font-size: 12px; padding: 4px 12px; border-radius: 20px; 
-            margin-bottom: 20px; text-transform: uppercase; font-weight: 600;
-        }
-        .download-btn {
-            display: block; background: var(--apple-blue); color: white;
-            text-decoration: none; padding: 16px; border-radius: 12px;
-            font-weight: 600; font-size: 17px; margin: 30px 0 20px;
-            transition: all 0.3s ease;
-        }
-        .download-btn:hover { background: #0077ed; transform: scale(1.02); }
-        .instruction-box {
-            text-align: left; background: rgba(0,0,0,0.03); 
-            padding: 20px; border-radius: 15px; font-size: 13px; color: #424245;
-            line-height: 1.5;
-        }
-        .thanks { margin-top: 30px; font-size: 14px; color: #86868b; }
-    </style>
+  <meta charset="UTF-8">
+  <title>Olivia – Download</title>
+
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    h1 span {
+      font-weight: normal;
+      font-size: 18px;
+      color: #f5c400;
+      display: block;
+      margin-top: 8px;
+    }
+
+    .download-btn {
+      margin-top: 40px;
+      padding: 16px 40px;
+      font-size: 20px;
+      background-color: #fff;
+      color: #000;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .download-btn:hover {
+      background-color: #f5c400;
+      color: #000;
+    }
+
+    .notice {
+      max-width: 480px;
+      margin: 30px auto;
+      font-size: 14px;
+      color: #ddd;
+      line-height: 1.6;
+    }
+
+    .footer {
+      margin-top: 50px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
 </head>
+
 <body>
 
-<div class="apple-card">
-    <div class="logo-placeholder">🌸</div>
-    <div class="beta-badge">Public Beta 1.01</div>
-    <h1>Olivia</h1>
-    <p style="color: #86868b; margin-top: 5px;">Experience the future.</p>
+  <h1>
+    <strong>Olivia</strong>
+    <span>Public Beta 1.01</span>
+  </h1>
 
-    <a href="https://github.com/ANSAH77/Olivia-Beta1.01/releases/latest/download/Olivia.apk" class="download-btn">
-        Download APK
-    </a>
+  <!-- 🔽 DIRECT DOWNLOAD LINK HERE -->
+  <a href="https://github.com/ANSAH77/Olivia-Beta1.01/releases/download/v1.01/Olivia.apk?raw=true">
+    <button class="download-btn">
+      Download APK
+    </button>
+  </a>
 
-    <div class="instruction-box">
-        <b>Quick Installation:</b><br>
-        1. Tap Download (Ignore the "harmful file" system warning).<br>
-        2. Open the file. In <b>Settings</b>, toggle on <b>"Allow from this source"</b> to finish.
-    </div>
+  <div class="notice">
+    After tapping download, Android may warn you before installing the app.
+    <br><br>
+    This is normal. Simply allow your phone to install the app and continue.
+  </div>
 
-    <p class="thanks">Thank you for supporting my work.</p>
-</div>
+  <div class="footer">
+    Thank you for supporting my project ❤️
+  </div>
 
 </body>
 </html>
