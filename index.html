@@ -2,84 +2,94 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Olivia – Download</title>
 
   <style>
     body {
-      background-color: #000;
+      margin: 0;
+      padding: 0;
+      background: #000;
       color: #fff;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: system-ui, Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 420px;
+      padding: 40px 20px;
       text-align: center;
-      padding: 60px 20px;
     }
 
     h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
+      margin: 0;
+      font-size: 38px;
+      font-weight: 800;
+      letter-spacing: 1px;
     }
 
-    h1 span {
-      font-weight: normal;
-      font-size: 18px;
-      color: #f5c400;
-      display: block;
-      margin-top: 8px;
+    .version {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #f5c400; /* yellow */
     }
 
     .download-btn {
       margin-top: 40px;
-      padding: 16px 40px;
+      width: 100%;
+      padding: 18px;
       font-size: 20px;
-      background-color: #fff;
+      font-weight: bold;
+      background: #fff;
       color: #000;
       border: none;
+      border-radius: 6px;
       cursor: pointer;
-      font-weight: bold;
     }
 
-    .download-btn:hover {
-      background-color: #f5c400;
-      color: #000;
+    .download-btn:active {
+      background: #f5c400;
     }
 
     .notice {
-      max-width: 480px;
-      margin: 30px auto;
+      margin-top: 30px;
       font-size: 14px;
-      color: #ddd;
       line-height: 1.6;
+      color: #ccc;
     }
 
     .footer {
-      margin-top: 50px;
-      font-size: 14px;
-      color: #aaa;
+      margin-top: 40px;
+      font-size: 13px;
+      color: #888;
     }
   </style>
 </head>
 
 <body>
 
-  <h1>
-    <strong>Olivia</strong>
-    <span>Public Beta 1.01</span>
-  </h1>
+  <div class="container">
 
-  <!-- 🔽 DIRECT DOWNLOAD LINK HERE -->
-  <a href="https://github.com/ANSAH77/Olivia-Beta1.01/releases/download/v1.01/Olivia.apk?raw=true">
-    <button class="download-btn">
-      Download APK
-    </button>
-  </a>
+    <h1>Olivia</h1>
+    <div class="version">Public Beta 1.01</div>
 
-  <div class="notice">
-    After tapping download, Android may warn you before installing the app.
-    <br><br>
-    This is normal. Simply allow your phone to install the app and continue.
-  </div>
+    <a href="https://github.com/ANSAH77/Olivia-Beta1.01/releases/download/v1.01/Olive.Beta.1.01.apk">
+      <button class="download-btn">Download APK</button>
+    </a>
 
-  <div class="footer">
-    Thank you for supporting my project ❤️
+    <div class="notice">
+      After tapping download, Android may warn you before installing the app.<br><br>
+      This is normal. Just allow installation and continue.
+    </div>
+
+    <div class="footer">
+      Thank you for supporting my project ❤️
+    </div>
+
   </div>
 
 </body>
