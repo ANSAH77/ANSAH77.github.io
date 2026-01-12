@@ -1,96 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Olivia – Download</title>
-
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background: #000;
-      color: #fff;
-      font-family: system-ui, Arial, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    }
-
-    .container {
-      width: 100%;
-      max-width: 420px;
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 38px;
-      font-weight: 800;
-      letter-spacing: 1px;
-    }
-
-    .version {
-      margin-top: 10px;
-      font-size: 16px;
-      color: #f5c400; /* yellow */
-    }
-
-    .download-btn {
-      margin-top: 40px;
-      width: 100%;
-      padding: 18px;
-      font-size: 20px;
-      font-weight: bold;
-      background: #fff;
-      color: #000;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-    }
-
-    .download-btn:active {
-      background: #f5c400;
-    }
-
-    .notice {
-      margin-top: 30px;
-      font-size: 14px;
-      line-height: 1.6;
-      color: #ccc;
-    }
-
-    .footer {
-      margin-top: 40px;
-      font-size: 13px;
-      color: #888;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivia Beta 1.01</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 80px 20px;
+            margin: 0;
+        }
+        h1 {
+            font-size: 4rem;
+            margin: 0;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+        .specifications {
+            color: #ffff00;
+            font-size: 1.2rem;
+            margin-bottom: 50px;
+            font-weight: bold;
+        }
+        .download-btn {
+            background-color: #ffff00;
+            color: #000000;
+            padding: 20px 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.5rem;
+            border-radius: 4px;
+            display: inline-block;
+            transition: 0.3s;
+        }
+        .download-btn:hover {
+            background-color: #ffffff;
+        }
+        .notice-container {
+            margin-top: 60px;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+        .notice-text {
+            color: #cccccc;
+            font-size: 1rem;
+        }
+        .thank-you {
+            margin-top: 40px;
+            color: #ffff00;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+    </style>
 </head>
-
 <body>
 
-  <div class="container">
+    <h1>OLIVIA</h1>
+    <div class="specifications">Public Beta 1.01</div>
 
-    <h1>Olivia</h1>
-    <div class="version">Public Beta 1.01</div>
+    <a href="https://github.com/ANSAH77/olivia-beta/releases/download/v1.0/Olive_Beta_1.01.apk" class="download-btn">DOWNLOAD APK</a>
 
-    <a href="https://github.com/ANSAH77/Olivia-Beta1.01./releases/download/1.01/Olive.Beta.1.01.apk">
-      <button class="download-btn">Download APK</button>
-    </a>
-
-    <div class="notice">
-      After tapping download, Android may warn you before installing the app.<br><br>
-      This is normal. Just allow installation and continue.
+    <div class="notice-container">
+        <p class="notice-text">
+            Android might give you a warning that you cannot install this APK. 
+            This is normal for apps outside the store. 
+            Please allow APK installation on your smartphone settings to proceed with the setup.
+        </p>
+        <div class="thank-you">Thank you.</div>
     </div>
-
-    <div class="footer">
-      Thank you for supporting my project ❤️
-    </div>
-
-  </div>
 
 </body>
 </html>
