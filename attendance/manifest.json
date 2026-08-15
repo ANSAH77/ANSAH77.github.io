@@ -1,13 +1,6 @@
 {
   "sessions": [
     {
-      "local_session_id": 25,
-      "name": "test",
-      "date": "2026-08-15",
-      "data_file": "sessions/2026-08-15-test-25.json",
-      "csv_file": "sessions/2026-08-15-test-25.csv"
-    },
-    {
       "local_session_id": 24,
       "name": "top.2",
       "date": "2026-08-15",
