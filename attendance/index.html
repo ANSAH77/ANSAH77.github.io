@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <title>Attendance Records</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -29,17 +29,31 @@
 
       <div id="sessionView" class="hidden">
         <div class="session-head">
-          <div>
+          <div class="session-copy">
             <h2 id="sessionTitle">Attendance</h2>
             <p id="sessionMeta"></p>
           </div>
-          <a id="downloadCsv" class="btn secondary" href="#" download>Download CSV</a>
+          <div class="session-actions">
+            <a id="downloadCsv" class="btn secondary" href="#" download>Download CSV</a>
+            <button id="deleteSessionBtn" class="btn danger" type="button">Delete Session</button>
+          </div>
         </div>
 
-        <div class="stats">
-          <div class="stat"><span id="presentCount">0</span><small>Present</small></div>
-          <div class="stat"><span id="absentCount">0</span><small>Absent</small></div>
-          <div class="stat"><span id="totalCount">0</span><small>Total</small></div>
+        <div class="stats" aria-label="Attendance summary">
+          <button id="presentStat" class="stat filterable" type="button" data-filter="present">
+            <span id="presentCount">0</span><small>Present</small>
+          </button>
+          <button id="absentStat" class="stat filterable" type="button" data-filter="absent">
+            <span id="absentCount">0</span><small>Absent</small>
+          </button>
+          <div class="stat total-stat">
+            <span id="totalCount">0</span><small>Total</small>
+          </div>
+        </div>
+
+        <div id="filterBar" class="filter-bar hidden">
+          <span id="filterText"></span>
+          <button id="clearFilterBtn" type="button">Show all</button>
         </div>
 
         <div class="table-wrap">
