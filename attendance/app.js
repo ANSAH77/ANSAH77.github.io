@@ -7,7 +7,6 @@ const absentStat=document.getElementById('absentStat');
 const filterBar=document.getElementById('filterBar');
 const filterText=document.getElementById('filterText');
 const clearFilterBtn=document.getElementById('clearFilterBtn');
-const deleteSessionBtn=document.getElementById('deleteSessionBtn');
 
 let manifest={sessions:[]};
 let currentFile=null;
@@ -15,7 +14,6 @@ let currentSession=null;
 let currentData=null;
 let currentFilter=null;
 let loading=false;
-let adminToken=sessionStorage.getItem('attendanceAdminToken')||'';
 
 async function loadManifest({preserveFilter=true}={}){
   if(loading)return;
@@ -117,68 +115,6 @@ clearFilterBtn.addEventListener('click',()=>{currentFilter=null;updateFilterUI()
 
 function friendlyDateTime(v){return v?String(v).replace('T',' '):'';}
 function formatTime(v){if(!v||v==='—')return'—';const s=String(v);const m=s.match(/(\d{2}:\d{2}:\d{2})/);return m?m[1]:s;}
-
-async function getAdminToken(){
-  if(adminToken)return adminToken;
-  const token=prompt('Admin Delete needs a GitHub fine-grained personal access token with Contents: Read and write permission for ANSAH77/ANSAH77.github.io.\n\nPaste the token here:');
-  if(!token)throw new Error('Delete cancelled.');
-  adminToken=token.trim();
-  sessionStorage.setItem('attendanceAdminToken',adminToken);
-  return adminToken;
-}
-
-async function githubRequest(path,options={}){
-  const token=await getAdminToken();
-  const headers={
-    'Accept':'application/vnd.github+json',
-    'Authorization':`Bearer ${token}`,
-    'X-GitHub-Api-Version':'2022-11-28',
-    ...(options.headers||{})
-  };
-  const r=await fetch(`https://api.github.com/repos/ANSAH77/ANSAH77.github.io/contents/${path}`,{...options,headers});
-  if(!r.ok){
-    const text=await r.text();
-    if(r.status===401||r.status===403){adminToken='';sessionStorage.removeItem('attendanceAdminToken');}
-    const err=new Error(`GitHub request failed (${r.status}). ${text.slice(0,180)}`);
-    err.status=r.status;throw err;
-  }
-  if(r.status===204)return null;
-  return r.json();
-}
-
-async function deleteRepoFile(path,message){
-  if(!path)return;
-  let info;
-  try{info=await githubRequest(path);}catch(e){if(e.status===404)return;throw e;}
-  await githubRequest(path,{method:'DELETE',headers:{'Content-Type':'application/json'},body:JSON.stringify({message,sha:info.sha,branch:'main'})});
-}
-
-async function deleteCurrentSession(){
-  if(!currentSession||!currentData)return;
-  const name=currentData.session_name||currentSession.name||'this attendance';
-  if(!confirm(`Delete "${name}" from the public website?\n\nThe copy on your Windows PC will stay safe.`))return;
-  deleteSessionBtn.disabled=true;deleteSessionBtn.textContent='Deleting...';
-  try{
-    const target=currentSession;
-    await getAdminToken();
-    const manifestInfo=await githubRequest('attendance/manifest.json');
-    const latestManifest=JSON.parse(decodeURIComponent(escape(atob(manifestInfo.content.replace(/\n/g,'')))));
-    latestManifest.sessions=(latestManifest.sessions||[]).filter(s=>s.data_file!==target.data_file);
-    const updated=btoa(unescape(encodeURIComponent(JSON.stringify(latestManifest,null,2))));
-    await githubRequest('attendance/manifest.json',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:`Remove attendance ${name} from site`,content:updated,sha:manifestInfo.sha,branch:'main'})});
-    await deleteRepoFile(`attendance/${target.data_file}`,`Delete attendance ${name}`);
-    await deleteRepoFile(`attendance/${target.csv_file}`,`Delete attendance CSV ${name}`);
-    currentFile=null;currentSession=null;currentData=null;currentFilter=null;
-    alert('Attendance deleted from the website. Your Windows local copy was not deleted.');
-    setTimeout(()=>loadManifest({preserveFilter:false}),1000);
-  }catch(e){
-    console.error(e);
-    alert(`${e.message}\n\nIf this is a permission error, create a fine-grained GitHub token for the ANSAH77.github.io repository with Contents: Read and write.`);
-  }finally{deleteSessionBtn.disabled=false;deleteSessionBtn.textContent='Admin Delete';}
-}
-
-deleteSessionBtn.addEventListener('click',deleteCurrentSession);
-
 function escapeHtml(v){return String(v??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));}
 
 document.getElementById('refreshBtn').addEventListener('click',()=>loadManifest({preserveFilter:true}));
