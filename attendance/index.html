@@ -3,8 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <title>Attendance Records</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=20260815-3" />
 </head>
 <body>
   <header class="topbar">
@@ -35,21 +38,23 @@
           </div>
           <div class="session-actions">
             <a id="downloadCsv" class="btn secondary" href="#" download>Download CSV</a>
-            <button id="deleteSessionBtn" class="btn danger" type="button">Delete Session</button>
+            <button id="deleteSessionBtn" class="btn danger" type="button">Admin Delete</button>
           </div>
         </div>
 
         <div class="stats" aria-label="Attendance summary">
-          <button id="presentStat" class="stat filterable" type="button" data-filter="present">
+          <button id="presentStat" class="stat filterable" type="button" data-filter="present" aria-label="Show present students">
             <span id="presentCount">0</span><small>Present</small>
           </button>
-          <button id="absentStat" class="stat filterable" type="button" data-filter="absent">
+          <button id="absentStat" class="stat filterable" type="button" data-filter="absent" aria-label="Show absent students">
             <span id="absentCount">0</span><small>Absent</small>
           </button>
           <div class="stat total-stat">
             <span id="totalCount">0</span><small>Total</small>
           </div>
         </div>
+
+        <div class="filter-hint">Tap <strong>Present</strong> or <strong>Absent</strong> to filter the list.</div>
 
         <div id="filterBar" class="filter-bar hidden">
           <span id="filterText"></span>
@@ -74,6 +79,6 @@
   </main>
 
   <footer>Student Attendance System</footer>
-  <script src="app.js"></script>
+  <script src="app.js?v=20260815-3"></script>
 </body>
 </html>
