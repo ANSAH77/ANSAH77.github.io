@@ -1,6 +1,13 @@
 {
   "sessions": [
     {
+      "local_session_id": 3,
+      "name": "scan test2",
+      "date": "2026-08-24",
+      "data_file": "sessions/2026-08-24-scan-test2-3.json",
+      "csv_file": "sessions/2026-08-24-scan-test2-3.csv"
+    },
+    {
       "local_session_id": 2,
       "name": "scan test1",
       "date": "2026-08-24",
