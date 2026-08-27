@@ -1,6 +1,13 @@
 {
   "sessions": [
     {
+      "local_session_id": 13,
+      "name": "Design Project Exam",
+      "date": "2026-08-27",
+      "data_file": "sessions/2026-08-27-design-project-exam-13.json",
+      "csv_file": "sessions/2026-08-27-design-project-exam-13.csv"
+    },
+    {
       "local_session_id": 3,
       "name": "scan test2",
       "date": "2026-08-24",
