@@ -1,6 +1,13 @@
 {
   "sessions": [
     {
+      "local_session_id": 21,
+      "name": "EEE444",
+      "date": "2026-08-28",
+      "data_file": "sessions/2026-08-28-eee444-21.json",
+      "csv_file": "sessions/2026-08-28-eee444-21.csv"
+    },
+    {
       "local_session_id": 15,
       "name": "Attendance for lab V",
       "date": "2026-08-27",
