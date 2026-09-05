@@ -1,6 +1,13 @@
 {
   "sessions": [
     {
+      "local_session_id": 24,
+      "name": "ICT",
+      "date": "2026-09-05",
+      "data_file": "sessions/2026-09-05-ict-24.json",
+      "csv_file": "sessions/2026-09-05-ict-24.csv"
+    },
+    {
       "local_session_id": 21,
       "name": "EEE444",
       "date": "2026-08-28",
