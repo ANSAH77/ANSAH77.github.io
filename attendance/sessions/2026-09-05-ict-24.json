@@ -1,0 +1,831 @@
+{
+  "session_id": 24,
+  "session_name": "ICT",
+  "date": "2026-09-05",
+  "started_at": "2026-09-05T18:07:03",
+  "ended_at": "2026-09-05T18:08:57",
+  "students": [
+    {
+      "name": "Abdallah Atif",
+      "index_number": "5231900013",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "ABDUL WASIU ABDULAI",
+      "index_number": "5231900082",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "ABDUL-JALIL KAMIL",
+      "index_number": "5231900071",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "ABDULAIR ARMOSSEH",
+      "index_number": "5231900067",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Abraham Nsobila Anyebem",
+      "index_number": "5231900014",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "ABUBAKARI MUNTAWAKEEL",
+      "index_number": "5231900105",
+      "status": "Present",
+      "timestamp": "2026-09-05T18:08:15"
+    },
+    {
+      "name": "Abugri Adakudugu Johnson Atambugri",
+      "index_number": "5231900007",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Abugri Tijani Seidu",
+      "index_number": "5231900075",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "ADAM MEJIDA MOHAMMED",
+      "index_number": "5231900006",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Adams Yaya",
+      "index_number": "5231900100",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "ADDO DAVID",
+      "index_number": "5231900055",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "ADDO VAN EUGENE",
+      "index_number": "5231900061",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "ADONGO MARK ATIAH",
+      "index_number": "5231900010",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Adugbire Robert Asakyure",
+      "index_number": "5231900050",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Afful Joseph",
+      "index_number": "4241900010",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Afoakwa Micky",
+      "index_number": "5231900078",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Afram Emmanuel",
+      "index_number": "5231900002",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Agana Elijah Ayindoo",
+      "index_number": "5231900086",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Ageman Edward Kyle",
+      "index_number": "5231900074",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Agyemang Osei Asibey",
+      "index_number": "5231900123",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Ahiatrogah Bless",
+      "index_number": "5231900076",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Akalinya Abraham Akansukwon",
+      "index_number": "5231900037",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "AKOLOGO RICHARD KOFI",
+      "index_number": "5231900115",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Amadu Ibrahim",
+      "index_number": "5231900098",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "AMOAH GIDEON",
+      "index_number": "5231900001",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Amoako Curtis Grey Oppong",
+      "index_number": "4241900002",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Amos Odame",
+      "index_number": "5231900125",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Amponsah Abigail",
+      "index_number": "5231900099",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Andrews Bonukan-ire",
+      "index_number": "5231900110",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Ansah Prosper Oscar",
+      "index_number": "5231900106",
+      "status": "Present",
+      "timestamp": "2026-09-05T18:07:23"
+    },
+    {
+      "name": "Appiah Emmanuel Akwasi",
+      "index_number": "5231900072",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "APPIAH STEPHEN",
+      "index_number": "5231900027",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "ASAKIWINE AUGUSTINE ATANGA",
+      "index_number": "5231900113",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Ashiru Osman",
+      "index_number": "5231900131",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Asiedu Harris Akuoko",
+      "index_number": "5231900108",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Asumani Richard",
+      "index_number": "5231900121",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Atanga Jude Awine-eta",
+      "index_number": "5231900036",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Awlime Johnson Mawuena Kwaku",
+      "index_number": "5231900021",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "AYISI RANSFORD",
+      "index_number": "5231900031",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Azanlerigo kelvin",
+      "index_number": "5231900038",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Babadaarakuu Paul",
+      "index_number": "5231900066",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "BAKABE NSUISONG DANIEL",
+      "index_number": "5231900017",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "BAKANG PRINCE SOOREMWIN-NYE",
+      "index_number": "5231900095",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "BANANJO DANIEL",
+      "index_number": "5231900063",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "BARNABAS MENSAH",
+      "index_number": "5231900042",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Bayabia Christian",
+      "index_number": "5231900087",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "BOAKYE SHADRACK",
+      "index_number": "5231900116",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Boateng Kelvin Kwame",
+      "index_number": "5231900026",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Buabeng Ebenezer",
+      "index_number": "4241900008",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "CHRISTOPHER AIDOO",
+      "index_number": "5231900044",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "CHRISTOPHER SIMIKOR JOKOLO",
+      "index_number": "4241900004",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "CLIFFORD APELIKIPUURE AMONA",
+      "index_number": "5231900047",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Daanaah Godwin",
+      "index_number": "4241900001",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Daniel Sackey",
+      "index_number": "5231900079",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "DARKO FRANK OPARE",
+      "index_number": "5231900011",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Darko Max",
+      "index_number": "4241920009",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Dassah Sagnoe Franklin",
+      "index_number": "5231900012",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Dauda Issifu",
+      "index_number": "5231900046",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Desmond Osei Owusu",
+      "index_number": "5231900003",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Diribe Raymond",
+      "index_number": "5231900127",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "DJoe Gideon",
+      "index_number": "5231900015",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Dwomoh justice",
+      "index_number": "4241900006",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Dzorka Caleb",
+      "index_number": "5231900084",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Emmanuel Kpante Jeli",
+      "index_number": "5231900005",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Emmanuel Owusu MENSAH",
+      "index_number": "5231900057",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Ernest Appiah",
+      "index_number": "5231900109",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Fosu Adjei Alllswell",
+      "index_number": "5231900054",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "FRANCIS ADDO",
+      "index_number": "5231900032",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Frimpong Oswald Yaw",
+      "index_number": "5231900088",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "FRIMPONG PRINCE AGYEN",
+      "index_number": "5231900104",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Godfred Kuu-ire",
+      "index_number": "5231900059",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Godfred Otu Boateng",
+      "index_number": "5231900043",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "GODZO BISMARK",
+      "index_number": "5231900091",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Gyamfuwaah Archer",
+      "index_number": "4241900005",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "GYATO DAVID",
+      "index_number": "5231900035",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Gyawu Shemayah Antwi Hawkins",
+      "index_number": "4241900009",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Huago Jacob Amatey",
+      "index_number": "5231900048",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Hudu Halidu",
+      "index_number": "5231900039",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Iddrisu Nadir",
+      "index_number": "5231900119",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "IS-HAQ ANABA ABDUL RAZAK",
+      "index_number": "5231900124",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Isaac Kwaku Afrifa",
+      "index_number": "5231900033",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Issah Majeed",
+      "index_number": "5231900107",
+      "status": "Present",
+      "timestamp": "2026-09-05T18:08:03"
+    },
+    {
+      "name": "Jaafari mubarik",
+      "index_number": "5231900056",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Jackator Patrick",
+      "index_number": "5231900081",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Jalulah Bagrini Alexander",
+      "index_number": "5231900034",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Janet Adade",
+      "index_number": "5231900102",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "JERRY JONES TETTEH",
+      "index_number": "5231900045",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "John Jakple",
+      "index_number": "5231900101",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "John Lipoyema Takorah",
+      "index_number": "5231900049",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Kingsley Kofi Boakye",
+      "index_number": "5231900009",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "KOBAPOLIBAWO MAXWELL ATAAMBADAGA",
+      "index_number": "5231900130",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Kpodo Saviour Righteous",
+      "index_number": "5231900064",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "KWABENA AMOAKO ATTA",
+      "index_number": "5231900065",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Libanla Jagri Daniel",
+      "index_number": "5231900016",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Loama Elijah",
+      "index_number": "4241900003",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Martha Amoah",
+      "index_number": "5231900025",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Michael Adamtey Awaitey",
+      "index_number": "5231900004",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Nasare Fuseini Habib",
+      "index_number": "4241900007",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "NDA JAMES",
+      "index_number": "5231900029",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Nimbipoul Benedict",
+      "index_number": "5231900041",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "NJONINBE GMAYENAN ABRAHAM",
+      "index_number": "5231900018",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Nyamekye Gideon",
+      "index_number": "5231900030",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Oduro John",
+      "index_number": "5231900093",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Oduro-Owusu Gregory",
+      "index_number": "5231900103",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Ofosu Eric",
+      "index_number": "5231900112",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Omaboe Nyabine Francis",
+      "index_number": "5231900096",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "opoku Prince",
+      "index_number": "5231900053",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Osabutey Prince",
+      "index_number": "5231900089",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Osei Benjamin",
+      "index_number": "5231900120",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Osman humeidu",
+      "index_number": "5231900040",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "OTENG BOAKYE EMMANUEL",
+      "index_number": "5231900097",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "OWUSU KWAME ISSAH MENYAH",
+      "index_number": "5231900080",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "PAUL OGUN",
+      "index_number": "5231900128",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Perry Brown",
+      "index_number": "5231900114",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Priscilla Amponsah Dwumfour",
+      "index_number": "5231900020",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Richard Appiah",
+      "index_number": "5231900051",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "RICHARD ASIEDU",
+      "index_number": "5231900126",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Robert Adu Ansah",
+      "index_number": "5231900068",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "SA-AD ABDUL - MUMIN SHA-ABN",
+      "index_number": "5231900083",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "SAANI IBRAHIM",
+      "index_number": "5231900111",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Samuel Henaku Agyepong",
+      "index_number": "5231900117",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "SANDE YUORTUNO GORDEN",
+      "index_number": "4241920007",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Silas Asamoah Boadu",
+      "index_number": "5231900062",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Sokpoli Darlington",
+      "index_number": "5231900052",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Solomon Nyame",
+      "index_number": "5231900085",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Stephen Botwe",
+      "index_number": "5231900023",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "TETTEY EMMANUELLA",
+      "index_number": "5231900118",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "TIBORWU PHILEMON GMAYASANMI",
+      "index_number": "5231900028",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Timunyun Ezekiel N naatib",
+      "index_number": "5231900024",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Tokoli Samuel Junior",
+      "index_number": "5231900129",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "TORBI EBENEZER N-NEIBINI",
+      "index_number": "5231900019",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Tula Amos",
+      "index_number": "5231900073",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "William Glover",
+      "index_number": "5231900077",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Yahaya Mohammed Amin Ndeiya",
+      "index_number": "5231900094",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Yelewaana Emmaunel",
+      "index_number": "5231900058",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Ziemeh puobu Joseph",
+      "index_number": "5231900122",
+      "status": "Absent",
+      "timestamp": "—"
+    },
+    {
+      "name": "Zukpat Wisdom Zubire",
+      "index_number": "5231900060",
+      "status": "Absent",
+      "timestamp": "—"
+    }
+  ]
+}
